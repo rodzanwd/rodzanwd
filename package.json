@@ -1,0 +1,35 @@
+{
+  "name": "rodzan",
+  "version": "1.0.1",
+  "description": "my website - I love JavaScript",
+  "main": "server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodzanwd/rodzanwd.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Rodrigo Zan - Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodzanwd/rodzanwd/issues"
+  },
+  "homepage": "https://github.com/rodzanwd/rodzanwd#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3"
+  }
+}
